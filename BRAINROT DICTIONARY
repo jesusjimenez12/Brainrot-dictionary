@@ -1,0 +1,18 @@
+BRAINROT_MEANING = {
+            "RIZZ": "Habilidad de alguien para coquetear",
+            "RIZZLER": "Individuo con una gran habilidad para coquetear",
+            "SKIBIDITOILET": "Meme popular proveniente de la plataforma youtube",
+            "FANUMTAX": "Impuesto de comida propuesto por el infuencer fanum",
+            "BRAINROT": "Cualquier contenido que los individuos perteneiente a la generacion alpha reconozca o disfrute",
+            "BABYGRONK": "Futuro jugador de la NFL",
+            "AURA": "Puntos que indican que tan popular es la persona",
+            "OHIO": "Aunque originalmente significaba un condado de los estados unidos, en los ultimos años se le ha dado el significado de algo muy tonto o ridiculo",
+            "SKIBIDI": "Originalmente un innfluencer que bailaba a base de balancear su panza, en el año 2023 se le dio el atributo de significar skibidi toilet",
+            }
+
+word = input("Escribe una palabra perteneciente a los memes mas recientes (¡con mayúsculas!): ")
+
+if word in BRAINROT_MEANING.keys():
+    print (BRAINROT_MEANING[word])
+else:
+    print ("erm what the sigma")
